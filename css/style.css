@@ -1,0 +1,89 @@
+body{
+    font-family: 'Martel', serif;
+    height: 100%;
+    background-color: #191919;
+}
+
+
+.hero-image{
+    border-radius: 50%;
+}
+h1{
+   
+    font-family: 'Pacifico', cursive;
+    
+}
+.white-text{
+    color:white;
+}
+.hero-p{
+    font-weight: bolder;
+    font-size:25px;
+    color:coral;
+    font-family: 'Pacifico', cursive;
+}
+.hero-t{
+    color:coral;
+}
+.hero-background{
+    background-color: #191919;
+    height: 800px;
+    padding-top: 3%;
+    /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), para colocar a imagem de background opaca*/
+    background-image:url("../assets/images/full\ stack\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.h2-about{
+    font-family:'pacifico', cursive;
+}
+
+.about-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.about1{
+    padding-top:80px;
+    padding-bottom: 80px;
+    font-family: 'pacifico', cursive;
+    font-weight: bold;
+}
+.about1 > h2{
+    font-size: 3rem;
+    padding-top: 75px;
+}
+.about2{
+    padding-top: 100px;
+    padding-bottom:80px;
+    font-family: 'Martel', serif;
+
+}
+.about3{
+    padding-top: 57px;
+    padding-bottom:80px;
+    font-family: 'Martel', serif;
+    margin-left: 50px;
+
+}
+li{
+    list-style: none;
+}
+.abilities-h{
+    font-size: 20px;
+    color: coral;
+    font-weight: bold;
+}
+.contact-h{
+    font-family: 'pacifico', coursive;
+    font-size: 60px;
+}
+#testimonial{
+    background-color: #191919;
+}
+hr{
+    color:white;
+    font-weight: bold;
+}
+.facts-img{
+    padding: auto;
+}
